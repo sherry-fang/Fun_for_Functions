@@ -492,17 +492,6 @@ def plot_two_plane_comparsion(fig,loadpath,rho_level=np.arange(1000.1,1002.7,0.0
 
 ####################
 # Energetics plots
-# def obtain_vol_ave_data_for_energy_analysis(loadpath,run_number=32):
-#     ds_eng=xr.open_dataset(loadpath+'run{:02d}_EnergyBudget_VA_Domain_n_PEZ.nc'.format(run_number))
-#     hs_pu=ds_eng['horizontal_shear_domain_vol_ave']
-#     vs_pu=ds_eng['vertical_shear_domain_vol_ave']
-#     bc_pu=ds_eng['broclinic_instability_domain_vol_ave']
-#     TKE_pu=ds_eng['TKE_domain_vol_ave']
-#     EKE_pu=ds_eng['EKE_domain_vol_ave']
-#     MKE_pu=ds_eng['MKE_domain_vol_ave']
-#     eddy_trans_pu=ds_eng['eddy_trans_domain_vol_ave']
-#     mean_trans_pu=ds_eng['mean_trans_domain_vol_ave']
-#     return hs_pu,vs_pu,bc_pu,TKE_pu,EKE_pu,MKE_pu,eddy_trans_pu,mean_trans_pu
 
 def obtain_vol_ave_data_for_energy_analysis(loadpath,run_number=32):
     ds_KE=xr.open_dataset(loadpath+'run{:02d}_KE_output.nc'.format(run_number))
