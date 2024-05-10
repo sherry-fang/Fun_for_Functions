@@ -1,2 +1,4 @@
-# Code
-Package with a list of functions for Chapter 1 results calculation/visualization 
+# Thesis
+A summary list of functions used for data visualisation in Thesis Chapter 2 and Chapter 3.
+The NetCDF files sourced from post-processing SUNTANS modelling 
+Integrate with some calculation/QAQC functions
