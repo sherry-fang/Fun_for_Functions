@@ -17,8 +17,8 @@ def truncate_colormap(cmap, minval=0.0, maxval=1.0, n=100):
     return new_cmap
 
 def obtain_paths():
-    savepath='../Chp1/v5/figs/'
-    loadpath='../../Year 3/Setonix_results/nc_file/'
+    savepath='directory where you can load your netCDF dataset' 
+    loadpath='directory where you want to save the results' 
     return savepath, loadpath
 
 
