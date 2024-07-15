@@ -5,7 +5,7 @@ A summary list of functions used for data visualisation in Thesis Chapter 2 and 
 - Integrate with some calculation/QAQC functions
 
 ### Motivation 
-- The confirmed and well-studied mesoscale eddy over the Australian NWorth West Shelf
+- The confirmed and well-studied mesoscale eddy over the Australian North West Shelf
 <img src="Mesoscale_eddy_NWS.jpg" width="400" />
 
 - However, there are unresolved smaller scales dynamics along the coast
