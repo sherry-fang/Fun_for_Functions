@@ -47,3 +47,6 @@ A simple example of the formation of lateral gradients
 
 - Schematic diagram of cross-shelf flow
 <img src="schematic_diagram_crossshelf_flow.jpg" width="500" />
+
+- Schematic diagram of cross-shelf flow and eddy field in the 3D simulation
+<img src="3D_schematic_plot.jpg" width="500" />
